@@ -1,0 +1,55 @@
+*{margin:0;
+    padding:0;
+}
+.papa{
+    background:rgb(16,23,30);
+    height: 100vh;
+
+}
+
+.showcase{
+    height:300px;
+    width:300px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chris{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 15px;
+}
+.Brands{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 20px;
+height:40px;
+background-color: orange;
+
+}
+.top-brand{
+    width: 120px;
+    height: 20px;
+background-color: gray;
+border-radius: 10px;}
+.top-brand-1{
+background-color: grey;
+}
+
+.top-brand:hover{
+    cursor: pointer;
+}
+.top-brand-1{
+    width: 200px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 5px;
+}

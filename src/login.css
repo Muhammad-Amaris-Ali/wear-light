@@ -1,0 +1,146 @@
+.ppp{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    background:rgb(16,23,30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    
+}
+.lgn-frm{
+    position:relative;
+    width: 350px;
+    height: 450px;
+    padding: 70px;
+    /* box-sizing: border-box; */
+    background: rgb(231,161,74);
+    border-radius: 30px;
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.email{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+}
+.pass{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.btn-3{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+label{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 4px;
+    margin-left: 20px;
+}
+label:nth-of-type(2){
+margin-top: 12px;    
+}
+.email::placeholder{
+    color: grey;
+}
+.pass::placeholder{
+color:grey
+}
+.pass{
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px;
+}
+
+.email{
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px;
+}
+.btn-3{
+    margin-top: 20px;
+    margin-left: 15px;
+    background: rgb(214,219,223);
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+   
+}
+
+.btn-3:hover{
+    box-shadow: none;
+}
+
+
+h1{
+    top: 0;
+    left: 0;
+}
+email,
+pass{
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+.signUp-button{
+    padding-top: 3px;
+height: 30px;
+background-color: rgb(214,219,223);
+justify-content: center;
+text-align: center;
+border-radius: 25px;
+width: 335px;
+margin-left: 20px;
+}
+.signUp-button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 115, 90);
+    transition: 0.1s;
+}
+.admin{
+    width: 145px;
+    text-align: center;
+    height: 30px;
+background-color: rgb(214,219,223);
+margin:auto;
+border-radius: 25px;
+}
+.admin:hover{
+    cursor: pointer;
+    background-color: rgb(128, 115, 90);
+    transition: 0.1s;
+}

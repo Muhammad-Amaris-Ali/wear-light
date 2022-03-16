@@ -1,0 +1,8 @@
+.nikepapa{
+    display: flex;
+flex-direction: row;
+gap: 20px;
+}
+.nikepapa-2{
+    background-color: aqua;
+}

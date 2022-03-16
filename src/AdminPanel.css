@@ -1,0 +1,129 @@
+.panel-1{
+    width: 100%;
+    height: 100%;
+    background:rgb(16,23,30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.topper {
+    height: 20px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -705px;
+margin-left: 335px;
+}
+.lbl-Ad{
+margin-right: 325px;
+
+}
+
+.lbl-Ad2{
+    margin-right: 365px;
+
+}
+.tag-btn {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    float: right;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+}
+    .bar-1 {
+        width: 285px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: larger;
+}
+.tag-btn:hover{
+    cursor: pointer;
+}
+.frm-2{
+    margin-right: -400px;
+        margin-top: 55px;
+    width: 640px;
+    background: rgb(231,161,74);
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 5px;
+border-radius: 10px;
+
+}
+    .form-admin {
+        width: 410px;
+        height: 30px;
+        border-radius: 30px;
+    }
+
+    .btn-7 {
+        padding-top: 25px;
+        padding-left: 60px;
+        height: 25px;
+
+}
+.btn-8{
+    border-radius: 15px;
+    width: 90px;
+}
+.btn-4{
+    margin-left: 60px;
+    width: 209px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: lightgreen;
+margin-top: 25px;
+}
+
+.heading-tbl-1{
+font-size: 20px;
+display: contents;
+}
+.tableofData{
+background-color: rgb(71,71,71);
+margin-right: -400px;
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.btn-007{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+text-align: center;
+background-color: aqua;}
+.btn-007:hover{
+    cursor: pointer;
+}
+    .lefter {
+        background-color: rgb(167,165,165);
+        width: 400px;
+        height: 150vh;
+                margin-top: -245px;
+                margin-right: 915px;
+                        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+}
+
+
